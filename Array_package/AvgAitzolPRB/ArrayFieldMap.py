@@ -48,13 +48,13 @@ eps_part = (n_eps + 1j*k_eps)**2  # Check the sign of complex sum!
 # --------------------------------------------------------------------------- #
 
 # Number of nanoparticles
-N = 50
+N = 1
 
 # Radius of the nanoparticles
-a = 150*nm
+a = 75*nm
 
 # Definition of the incident EM field
-Kerker = True
+Kerker = False
 cf1 = 1         # Polarization coefficient in the U1 direction (not normalized)
 cf2 = +1j       # Polarization coefficient in the U1 direction (not normalized)
 
@@ -87,7 +87,7 @@ else:
 # --------------------------------------------------------------------------- #
 
 
-theta = np.pi/2
+theta = 0
 Dp = 618.36*nm
 
 # For the Dp value, we calculate the dipole coupling
