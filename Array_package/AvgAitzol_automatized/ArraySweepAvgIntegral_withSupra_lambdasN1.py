@@ -1,9 +1,10 @@
 import numpy as np
-import multiprocessing as mp
-from tqdm import tqdm
+# import multiprocessing as mp
+import matplotlib.pyplot as plt
 import scipy.io as sio  # To read .mat files
-from FiniteArrayTools import lambda_kerker, ab_MieCoef
-from AvgIntegralFunction import AvgIntegral
+from MainTools import EHinc_array, AGmatrix_array
+from FiniteArrayTools import ab_MieCoef
+from Avgintegral_run_function import Avgintegral_run_function
 
 
 # ---------- CONSTANTS ------------------------------------------------------ #
@@ -48,13 +49,12 @@ eps_part = (n_eps + 1j*k_eps)**2  # Check the sign of complex sum!
 # --------------------------------------------------------------------------- #
 
 # Number of nanoparticles
-N = 50
+N = 1
 
 # Radius of the nanoparticles
-a = 150*nm
+a = 75*nm
 
 # Definition of the incident EM field
-Kerker = True
 cf1 = 1         # Polarization coefficient in the U1 direction (not normalized)
 cf2 = +1j       # Polarization coefficient in the U1 direction (not normalized)
 
@@ -63,9 +63,21 @@ ncf1 = cf1/norm  # Polarization coefficient in the U1 direction (normalized)
 ncf2 = cf2/norm  # Polarization coefficient in the U2 direction (normalized)
 
 
-if not Kerker:
-    # Choose a wavelength number from imported data
-    nwave = 525
+# ---------- OPTIONS OF THE PROGRAM ----------------------------------------- #
+# --------------------------------------------------------------------------- #
+
+# Input parameters
+Dp = 1208*nm
+theta_i = 0
+R = a + 1*nm  # Radius at which average is being calculated
+
+fCDsum_tot = np.zeros(len(LambdaArray))
+# Calculate for lambda in [400nm, 800nm]
+for kwave in range(300, 701):
+    print(kwave)
+
+    # We need to calculate the parameters that depend on Lambda: k, a_e, a_m
+    nwave = kwave
     Lambda = np.array([LambdaArray[nwave]])
     k = 2*np.pi/Lambda
 
@@ -77,56 +89,21 @@ if not Kerker:
     a_e = 1j*(6*np.pi/k**3)*a_1
     a_m = 1j*(6*np.pi/k**3)*b_1
 
-else:
-    Lambda, a_e, a_m = lambda_kerker(a, LambdaArray, eps_part,
-                                     np.ones(len(eps_part)), 1)
-    k = 2*np.pi/Lambda
+    # Calculus of the dipole distribution
+    EHvec = EHinc_array(N, Dp, theta_i, [ncf1, ncf2], k, 'PW')
+    M = AGmatrix_array(Dp, N, a_e, a_m, k)
+    P = M.dot(EHvec)
+
+    # Calculus of the average fCD integral
+    EHinc_param = [theta_i, [ncf1, ncf2], k]
+    fCDsum_tot[kwave] = Avgintegral_run_function(P, Dp, R, EHinc_param)
 
 
-# ---------- OPTIONS OF THE PROGRAM ----------------------------------------- #
-# --------------------------------------------------------------------------- #
+sio.savemat('fCDavg.mat', {'fCDavg': fCDsum_tot/N})
 
-# Radius for which we calculate the avg. integral of fCD
-R = a + 1*nm
-
-# Initializing arrays and matrices
-thetalist = np.linspace(0, np.pi/2, 100)
-Dplist = np.linspace(2*a, 3000*nm, 601)
-fCDIntegral = np.zeros((len(Dplist), len(thetalist)), dtype=float)
-
-# Import dipole data already calculated
-Psupra = sio.loadmat('Psupra.mat')['Psupra']
-
-# Sweep calculus in Dp and theta
-for kd in range(0, len(Dplist)):
-    print("Calculating fCD average for kd = " + str(kd))
-    print(kd)
-
-    def func2(theta):
-        """Parallelizing piece of code."""
-        ktheta = list(thetalist).index(theta)
-
-        P = Psupra[kd][ktheta][:]
-        Dp = Dplist[kd]
-        theta = thetalist[ktheta]
-
-        EHinc_param = [theta, [ncf1, ncf2], k]
-        fCDInt = 1/N*AvgIntegral(P, Dp, R, EHinc_param)
-
-        return fCDInt
-
-    # Generate processes equal to the number of cores
-    ncore = 8
-    pool = mp.Pool(processes=ncore)
-
-    print("POOL HAS BEEN OPENED!!")
-    # Distribute the parameter sets evenly across the cores
-    for ktheta, res in enumerate(pool.imap(func2, thetalist), 0):
-        fCDIntegral[kd][ktheta] = res
-
-    pool.close()
-    print("POOL HAS BEEN CLOSED!!")
-
-sio.savemat('fCDIntegral_total.mat', {'fCDSweepN'+str(N): fCDIntegral})
-sio.savemat('thetalist.mat', {'thetalist': thetalist})
-sio.savemat('Dplist.mat', {'Dplist': Dplist})
+plt.plot(LambdaArray/nm, fCDsum_tot, '.')
+plt.xlabel('Wavelength (nm)')
+plt.ylabel('fCD_avg')
+plt.title('Average CD enhancement')
+plt.xlim((400, 800))
+plt.show()
