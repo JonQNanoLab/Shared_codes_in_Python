@@ -44,27 +44,17 @@ k_eps = np.array([float(i) for i in ke_read])
 eps_part = (n_eps + 1j*k_eps)**2  # Check the sign of complex sum!
 
 
-# ---------- DIPOLE POSITION DATA ORIGIN ------------------------------------ #
-# --------------------------------------------------------------------------- #
-
-# The program allows for reading the spatial distribution of dipoles either
-# from a file 'DipolePos.txt' or directly using functions for a given geometry.
-# Variable Fromfile determines which of both ways we are using.
-
-Fromfile = False
-
-
 # ---------- MAIN PARAMETERS OF THE PROBLEM --------------------------------- #
 # --------------------------------------------------------------------------- #
 
 # Number of nanoparticles
-N = 50
+N = 1
 
 # Radius of the nanoparticles
-a = 150*nm
+a = 75*nm
 
 # Definition of the incident EM field
-Kerker = True
+Kerker = False
 cf1 = 1         # Polarization coefficient in the U1 direction (not normalized)
 cf2 = +1j       # Polarization coefficient in the U1 direction (not normalized)
 
@@ -97,8 +87,8 @@ else:
 # --------------------------------------------------------------------------- #
 
 
-theta = np.pi/2
-Dp = 620*nm
+theta = 0
+Dp = 618.36*nm
 
 # For the Dp value, we calculate the dipole coupling
 M = AGmatrix_array(Dp, N, a_e, a_m, k)
@@ -146,16 +136,20 @@ NPmax = np.argmax(Pabs)
 # Plot the field around the dipole with maximum absolute value
 ystart = NPmax*Dp - Dp/2
 yend = ystart + Dp
-zstart = 4*a
-zend = -4*a
-npointsy = 100
-npointsz = 100
+zstart = 2*a
+zend = -2*a
+npointsy = 200
+npointsz = 200
 dy = (yend - ystart)/npointsy
 dz = (zend - zstart)/npointsz
 
-fCD = np.zeros((npointsy, npointsz), dtype=float)
-Efield = np.zeros((npointsy, npointsz), dtype=float)
-Hfield = np.zeros((npointsy, npointsz), dtype=float)
+# Initialize the matrices which will keep the info for fCD and fields
+Escat = np.zeros((3, npointsy, npointsz), dtype=complex)
+Hscat = np.zeros((3, npointsy, npointsz), dtype=complex)
+Einc = np.zeros((3, npointsy, npointsz), dtype=complex)
+Hinc = np.zeros((3, npointsy, npointsz), dtype=complex)
+Etot = np.zeros((3, npointsy, npointsz), dtype=complex)
+Htot = np.zeros((3, npointsy, npointsz), dtype=complex)
 
 # Map construction point by point
 xj = 0
@@ -166,11 +160,6 @@ for indy in range(0, npointsy):
         x = 0
         y = ystart + indy*dy
         z = zstart + indz*dz
-
-        Escat = np.zeros(3, dtype=complex)
-        Hscat = np.zeros(3, dtype=complex)
-        Einc = np.zeros(3, dtype=complex)
-        Hinc = np.zeros(3, dtype=complex)
 
         yPmax = NPmax*Dp
         rad = np.sqrt(x**2 + (y - yPmax)**2 + z**2)
@@ -183,37 +172,74 @@ for indy in range(0, npointsy):
                 Mj = np.array([P[3*(j-1) + 0 + 3*N], P[3*(j-1) + 1 + 3*N],
                                P[3*(j-1) + 2 + 3*N]])
 
-                Escat = Escat + k**2/eps_0*Ge(Pj, k, x, y, z, xj, yj, zj)
-                + 1j*Z_0*k**2*Gm(Mj, k, x, y, z, xj, yj, zj)
+                Escat[:, indy, indz] = Escat[:, indy, indz] \
+                    + k**2/eps_0*Ge(Pj, k, x, y, z, xj, yj, zj) \
+                    + 1j*Z_0*k**2*Gm(Mj, k, x, y, z, xj, yj, zj)
 
-                Hscat = Hscat - 1j*k**2/(Z_0*eps_0)*Gm(Pj, k, x, y, z, xj, yj,
-                                                       zj)
-                + k**2*Ge(Mj, k, x, y, z, xj, yj, zj)
+                Hscat[:, indy, indz] = Hscat[:, indy, indz] \
+                    - 1j*k**2/(Z_0*eps_0)*Gm(Pj, k, x, y, z, xj, yj, zj) \
+                    + k**2*Ge(Mj, k, x, y, z, xj, yj, zj)
 
-            Einc = np.array([EH0(theta, [ncf1, ncf2], k, 'E', 1,
-                                 np.array([x, y, z])),
-                             EH0(theta, [ncf1, ncf2], k, 'E', 2,
-                                 np.array([x, y, z])),
-                             EH0(theta, [ncf1, ncf2], k, 'E', 3,
-                                 np.array([x, y, z]))])
+            Einc[:, indy, indz] = np.array([EH0(theta, [ncf1, ncf2], k, 'E', 1,
+                                                np.array([x, y, z])),
+                                            EH0(theta, [ncf1, ncf2], k, 'E', 2,
+                                                np.array([x, y, z])),
+                                            EH0(theta, [ncf1, ncf2], k, 'E', 3,
+                                                np.array([x, y, z]))])
 
-            Hinc = np.array([EH0(theta, [ncf1, ncf2], k, 'H', 1,
-                                 np.array([x, y, z])),
-                             EH0(theta, [ncf1, ncf2], k, 'H', 2,
-                                 np.array([x, y, z])),
-                             EH0(theta, [ncf1, ncf2], k, 'H', 3,
-                                 np.array([x, y, z]))])
+            Hinc[:, indy, indz] = np.array([EH0(theta, [ncf1, ncf2], k, 'H', 1,
+                                                np.array([x, y, z])),
+                                            EH0(theta, [ncf1, ncf2], k, 'H', 2,
+                                                np.array([x, y, z])),
+                                            EH0(theta, [ncf1, ncf2], k, 'H', 3,
+                                                np.array([x, y, z]))])
+Etot = Einc + Escat
+Htot = Hinc + Hscat
 
-        Etot = Einc + Escat
-        Htot = Hinc + Hscat
+# It is important to define this way the scalar products. The use of functions
+# in Python such as np.dot and np.vdot is not straight-forward.
+Emod = np.sqrt(np.multiply(Etot[0, :, :], np.conj(Etot[0, :, :]))
+               + np.multiply(Etot[1, :, :], np.conj(Etot[1, :, :]))
+               + np.multiply(Etot[2, :, :], np.conj(Etot[2, :, :])))
 
-        dEH = np.conj(Escat[0])*Hscat[0] + np.conj(Escat[1])*Hscat[1] \
-            + np.conj(Escat[2])*Hscat[2]
+Hmod = np.sqrt(np.multiply(Htot[0, :, :], np.conj(Htot[0, :, :]))
+               + np.multiply(Htot[1, :, :], np.conj(Htot[1, :, :]))
+               + np.multiply(Htot[2, :, :], np.conj(Htot[2, :, :])))
 
-        dEE = np.conj(Escat[0])*Escat[0] + np.conj(Escat[1])*Escat[1] \
-            + np.conj(Escat[2])*Escat[2]
+fCD = -Z_0*np.imag(np.multiply(np.conj(Etot[0, :, :]), Htot[0, :, :])
+                   + np.multiply(np.conj(Etot[1, :, :]), Htot[1, :, :])
+                   + np.multiply(np.conj(Etot[2, :, :]), Htot[2, :, :]))
 
-        dHH = np.conj(Hscat[0])*Hscat[0] + np.conj(Hscat[1])*Hscat[1] \
-            + np.conj(Hscat[2])*Hscat[2]
+sio.savemat('fCD.mat', {'fCD': fCD})
+sio.savemat('Emod.mat', {'Emod': Emod})
+sio.savemat('Hmod.mat', {'Hmod': Hmod})
 
-        fCD[indy, indz] = -Z_0*np.imag(dEH)
+# plot fCD map and fields
+yplot = 1/10**3*np.linspace(ystart/nm, yend/nm, npointsy)
+zplot = np.linspace(zstart/nm, zend/nm, npointsz)
+sio.savemat('Xaxis_plot.mat', {'Y_um': yplot})
+sio.savemat('Yaxis_plot.mat', {'Z_nm': zplot})
+cmap = plt.get_cmap('jet')
+
+plt.figure(1)
+cont = plt.contourf(yplot, zplot, np.transpose(fCD), 100, cmap=cmap)
+plt.colorbar(cont)
+plt.xlabel('Y axis (um)')
+plt.ylabel('Z axis (nm)')
+plt.title('fCD around maximum dipole')
+
+plt.figure(2)
+cont1 = plt.contourf(yplot, zplot, np.transpose(Emod), 100)
+plt.colorbar(cont1)
+plt.xlabel('Y axis (um)')
+plt.ylabel('Z axis (nm)')
+plt.title('Etot/E0')
+
+plt.figure(3)
+cont2 = plt.contourf(yplot, zplot, np.transpose(Z_0*Hmod), 100)
+plt.colorbar(cont2)
+plt.xlabel('Y axis (um)')
+plt.ylabel('Z axis (nm)')
+plt.title('Htot/H0')
+
+plt.show()

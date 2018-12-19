@@ -1,0 +1,5 @@
+ 5322 239596 239596 bash            -bash
+ 5322 239596 239665 877305.maui01.S /bin/bash /var/spool/torque/mom_priv/jobs/877305.maui01.SC
+ 5322 239596 239928 dcrab           /bin/bash /scratch/administracion/admin/dcrab/software/src/dcrab finish
+ 5322 239596 239988 ssh             ssh -f atlas-184 kill 239917
+ 5322 239992 239992 sshd            sshd: jlasa [priv]

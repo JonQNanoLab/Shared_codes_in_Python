@@ -1,0 +1,4 @@
+--- DCRAB main-node: atlas-207 log ---
+2018-12-18 20:08:44 [JOB: 878968] INFO: Node: atlas-207 - PID: 184583 - Number: 0
+2018-12-18 23:09:05 [JOB: 878968] INFO: DCRAB processes started in compute nodes have these PIDs: 184583
+2018-12-18 23:09:05 [JOB: 878968] INFO: Killing DCRAB process with PID 184583 in the node atlas-207

@@ -1,0 +1,573 @@
+--- DCRAB atlas-207 log ---
+2018-12-18 16:13:41 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:13:41 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:13:41 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:13:51 [JOB: 878594] INFO: Loop number: 1
+2018-12-18 16:13:51 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:13:51 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:13:51 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:13:51 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:14:01 [JOB: 878594] INFO: Loop number: 2
+2018-12-18 16:14:01 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:14:11 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:14:11 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:14:11 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:14:21 [JOB: 878594] INFO: Loop number: 3
+2018-12-18 16:14:21 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:14:28 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:14:28 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:14:28 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:14:38 [JOB: 878594] INFO: Loop number: 4
+2018-12-18 16:14:38 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:14:44 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:14:44 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:14:44 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:14:55 [JOB: 878594] INFO: Loop number: 5
+2018-12-18 16:14:55 [JOB: 878594] INFO: Starting data collection
+grep: /proc/398494/io: Permission denied
+2018-12-18 16:15:03 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:15:03 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:15:03 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:15:13 [JOB: 878594] INFO: Loop number: 6
+2018-12-18 16:15:13 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:15:22 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:15:22 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:15:22 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:15:33 [JOB: 878594] INFO: Loop number: 7
+2018-12-18 16:15:33 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:15:46 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:15:46 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:15:46 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:15:56 [JOB: 878594] INFO: Loop number: 8
+2018-12-18 16:15:56 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:16:07 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:16:07 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:16:07 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:16:19 [JOB: 878594] INFO: Loop number: 9
+2018-12-18 16:16:19 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:16:34 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:16:34 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:16:34 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:16:44 [JOB: 878594] INFO: Loop number: 10
+2018-12-18 16:16:44 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:16:57 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:16:57 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:16:57 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:17:07 [JOB: 878594] INFO: Loop number: 11
+2018-12-18 16:17:07 [JOB: 878594] INFO: Starting data collection
+grep: /proc/421559/io: Permission denied
+2018-12-18 16:17:23 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:17:23 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:17:23 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:17:33 [JOB: 878594] INFO: Loop number: 12
+2018-12-18 16:17:33 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:17:50 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:17:50 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:17:50 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:18:03 [JOB: 878594] INFO: Loop number: 13
+2018-12-18 16:18:03 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:18:20 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:18:20 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:18:20 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:18:30 [JOB: 878594] INFO: Loop number: 14
+2018-12-18 16:18:30 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:18:53 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:18:53 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:18:53 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:19:08 [JOB: 878594] INFO: Loop number: 15
+2018-12-18 16:19:08 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:19:37 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:19:37 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:19:37 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:19:47 [JOB: 878594] INFO: Loop number: 16
+2018-12-18 16:19:47 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:20:09 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:20:09 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:20:09 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:20:19 [JOB: 878594] INFO: Loop number: 17
+2018-12-18 16:20:19 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:20:44 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:20:44 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:20:44 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:20:57 [JOB: 878594] INFO: Loop number: 18
+2018-12-18 16:20:57 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:21:25 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:21:25 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:21:25 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:21:35 [JOB: 878594] INFO: Loop number: 19
+2018-12-18 16:21:35 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:22:01 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:22:01 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:22:01 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:22:12 [JOB: 878594] INFO: Loop number: 20
+2018-12-18 16:22:12 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:23:00 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:23:00 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:23:00 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:23:10 [JOB: 878594] INFO: Loop number: 21
+2018-12-18 16:23:10 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:23:36 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:23:36 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:23:36 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:23:47 [JOB: 878594] INFO: Loop number: 22
+2018-12-18 16:23:47 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:24:18 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:24:18 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:24:18 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:24:28 [JOB: 878594] INFO: Loop number: 23
+2018-12-18 16:24:28 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:24:53 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:24:53 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:24:53 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:25:04 [JOB: 878594] INFO: Loop number: 24
+2018-12-18 16:25:04 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:25:35 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:25:35 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:25:35 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:25:45 [JOB: 878594] INFO: Loop number: 25
+2018-12-18 16:25:45 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:26:15 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:26:15 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:26:15 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:26:26 [JOB: 878594] INFO: Loop number: 26
+2018-12-18 16:26:26 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:27:07 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:27:07 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:27:07 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:27:18 [JOB: 878594] INFO: Loop number: 27
+2018-12-18 16:27:18 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:27:57 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:27:57 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:27:57 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:28:07 [JOB: 878594] INFO: Loop number: 28
+2018-12-18 16:28:07 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:28:45 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:28:45 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:28:45 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:28:55 [JOB: 878594] INFO: Loop number: 29
+2018-12-18 16:28:55 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:29:29 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:29:29 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:29:29 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:29:40 [JOB: 878594] INFO: Loop number: 30
+2018-12-18 16:29:40 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:30:18 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:30:18 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:30:18 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:30:28 [JOB: 878594] INFO: Loop number: 31
+2018-12-18 16:30:28 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:31:05 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:31:05 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:31:05 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:31:16 [JOB: 878594] INFO: Loop number: 32
+2018-12-18 16:31:16 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:31:50 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:31:50 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:31:50 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:32:01 [JOB: 878594] INFO: Loop number: 33
+2018-12-18 16:32:01 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:32:49 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:32:49 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:32:49 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:32:59 [JOB: 878594] INFO: Loop number: 34
+2018-12-18 16:32:59 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:33:46 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:33:46 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:33:46 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:33:56 [JOB: 878594] INFO: Loop number: 35
+2018-12-18 16:33:56 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:34:39 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:34:39 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:34:39 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:34:50 [JOB: 878594] INFO: Loop number: 36
+2018-12-18 16:34:50 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:35:37 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:35:37 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:35:37 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:35:48 [JOB: 878594] INFO: Loop number: 37
+2018-12-18 16:35:48 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:36:37 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:36:37 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:36:37 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:36:47 [JOB: 878594] INFO: Loop number: 38
+2018-12-18 16:36:47 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:37:37 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:37:37 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:37:37 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:37:47 [JOB: 878594] INFO: Loop number: 39
+2018-12-18 16:37:47 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:38:34 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:38:34 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:38:34 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:38:44 [JOB: 878594] INFO: Loop number: 40
+2018-12-18 16:38:44 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:39:35 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:39:35 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:39:35 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:39:46 [JOB: 878594] INFO: Loop number: 41
+2018-12-18 16:39:46 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:40:37 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:40:37 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:40:37 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:40:47 [JOB: 878594] INFO: Loop number: 42
+2018-12-18 16:40:47 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:41:40 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:41:40 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:41:40 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:41:50 [JOB: 878594] INFO: Loop number: 43
+2018-12-18 16:41:50 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:42:47 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:42:47 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:42:47 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:42:57 [JOB: 878594] INFO: Loop number: 44
+2018-12-18 16:42:57 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:43:47 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:43:47 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:43:47 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:43:57 [JOB: 878594] INFO: Loop number: 45
+2018-12-18 16:43:57 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:44:49 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:44:49 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:44:49 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:44:59 [JOB: 878594] INFO: Loop number: 46
+2018-12-18 16:44:59 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:45:56 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:45:56 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:45:56 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:46:06 [JOB: 878594] INFO: Loop number: 47
+2018-12-18 16:46:06 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:47:07 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:47:07 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:47:07 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:47:18 [JOB: 878594] INFO: Loop number: 48
+2018-12-18 16:47:18 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:48:21 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:48:21 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:48:21 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:48:31 [JOB: 878594] INFO: Loop number: 49
+2018-12-18 16:48:31 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:49:38 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:49:38 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:49:38 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:49:48 [JOB: 878594] INFO: Loop number: 50
+2018-12-18 16:49:48 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:50:53 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:50:53 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:50:53 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:51:03 [JOB: 878594] INFO: Loop number: 51
+2018-12-18 16:51:03 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:52:07 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:52:07 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:52:07 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:52:17 [JOB: 878594] INFO: Loop number: 52
+2018-12-18 16:52:17 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:53:26 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:53:26 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:53:26 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:53:36 [JOB: 878594] INFO: Loop number: 53
+2018-12-18 16:53:36 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:54:44 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:54:44 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:54:44 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:54:54 [JOB: 878594] INFO: Loop number: 54
+2018-12-18 16:54:54 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:56:00 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:56:00 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:56:00 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:56:10 [JOB: 878594] INFO: Loop number: 55
+2018-12-18 16:56:10 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:57:19 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:57:19 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:57:19 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:57:30 [JOB: 878594] INFO: Loop number: 56
+2018-12-18 16:57:30 [JOB: 878594] INFO: Starting data collection
+2018-12-18 16:58:39 [JOB: 878594] INFO: Ready to write
+2018-12-18 16:58:39 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 16:58:39 [JOB: 878594] INFO: It is my turn!
+2018-12-18 16:58:50 [JOB: 878594] INFO: Loop number: 57
+2018-12-18 16:58:50 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:00:06 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:00:06 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:00:06 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:00:16 [JOB: 878594] INFO: Loop number: 58
+2018-12-18 17:00:16 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:01:32 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:01:32 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:01:32 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:01:42 [JOB: 878594] INFO: Loop number: 59
+2018-12-18 17:01:43 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:02:57 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:02:57 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:02:57 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:03:08 [JOB: 878594] INFO: Loop number: 60
+2018-12-18 17:03:08 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:04:01 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:04:01 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:04:01 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:04:12 [JOB: 878594] INFO: Loop number: 61
+2018-12-18 17:04:12 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:05:33 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:05:33 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:05:33 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:05:44 [JOB: 878594] INFO: Loop number: 62
+2018-12-18 17:05:44 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:07:09 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:07:09 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:07:09 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:07:20 [JOB: 878594] INFO: Loop number: 63
+2018-12-18 17:07:20 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:08:41 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:08:41 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:08:41 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:08:52 [JOB: 878594] INFO: Loop number: 64
+2018-12-18 17:08:52 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:10:14 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:10:14 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:10:14 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:10:25 [JOB: 878594] INFO: Loop number: 65
+2018-12-18 17:10:25 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:11:52 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:11:52 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:11:52 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:12:02 [JOB: 878594] INFO: Loop number: 66
+2018-12-18 17:12:02 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:13:29 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:13:29 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:13:29 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:13:40 [JOB: 878594] INFO: Loop number: 67
+2018-12-18 17:13:40 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:15:08 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:15:08 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:15:08 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:15:18 [JOB: 878594] INFO: Loop number: 68
+2018-12-18 17:15:19 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:16:46 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:16:46 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:16:46 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:16:57 [JOB: 878594] INFO: Loop number: 69
+2018-12-18 17:16:57 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:18:28 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:18:28 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:18:28 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:18:39 [JOB: 878594] INFO: Loop number: 70
+2018-12-18 17:18:39 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:20:05 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:20:05 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:20:05 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:20:16 [JOB: 878594] INFO: Loop number: 71
+2018-12-18 17:20:16 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:21:47 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:21:47 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:21:47 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:21:58 [JOB: 878594] INFO: Loop number: 72
+2018-12-18 17:21:58 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:23:32 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:23:32 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:23:32 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:23:42 [JOB: 878594] INFO: Loop number: 73
+2018-12-18 17:23:42 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:25:19 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:25:19 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:25:19 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:25:29 [JOB: 878594] INFO: Loop number: 74
+2018-12-18 17:25:29 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:27:07 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:27:07 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:27:07 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:27:18 [JOB: 878594] INFO: Loop number: 75
+2018-12-18 17:27:18 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:28:59 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:28:59 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:29:00 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:29:10 [JOB: 878594] INFO: Loop number: 76
+2018-12-18 17:29:10 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:30:45 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:30:45 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:30:45 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:30:55 [JOB: 878594] INFO: Loop number: 77
+2018-12-18 17:30:55 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:32:32 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:32:32 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:32:32 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:32:42 [JOB: 878594] INFO: Loop number: 78
+2018-12-18 17:32:42 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:34:17 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:34:17 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:34:17 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:34:28 [JOB: 878594] INFO: Loop number: 79
+2018-12-18 17:34:28 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:36:08 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:36:08 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:36:08 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:36:19 [JOB: 878594] INFO: Loop number: 80
+2018-12-18 17:36:19 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:38:03 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:38:03 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:38:03 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:38:14 [JOB: 878594] INFO: Loop number: 81
+2018-12-18 17:38:14 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:39:58 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:39:58 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:39:58 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:40:08 [JOB: 878594] INFO: Loop number: 82
+2018-12-18 17:40:08 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:41:48 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:41:48 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:41:48 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:41:59 [JOB: 878594] INFO: Loop number: 83
+2018-12-18 17:41:59 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:43:41 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:43:41 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:43:41 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:43:52 [JOB: 878594] INFO: Loop number: 84
+2018-12-18 17:43:52 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:45:34 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:45:34 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:45:34 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:45:44 [JOB: 878594] INFO: Loop number: 85
+2018-12-18 17:45:44 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:47:28 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:47:28 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:47:28 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:47:38 [JOB: 878594] INFO: Loop number: 86
+2018-12-18 17:47:38 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:49:20 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:49:20 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:49:20 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:49:30 [JOB: 878594] INFO: Loop number: 87
+2018-12-18 17:49:30 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:51:16 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:51:16 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:51:16 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:51:26 [JOB: 878594] INFO: Loop number: 88
+2018-12-18 17:51:26 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:53:14 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:53:14 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:53:14 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:53:24 [JOB: 878594] INFO: Loop number: 89
+2018-12-18 17:53:24 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:55:10 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:55:10 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:55:10 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:55:20 [JOB: 878594] INFO: Loop number: 90
+2018-12-18 17:55:20 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:57:11 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:57:11 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:57:11 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:57:22 [JOB: 878594] INFO: Loop number: 91
+2018-12-18 17:57:22 [JOB: 878594] INFO: Starting data collection
+2018-12-18 17:59:10 [JOB: 878594] INFO: Ready to write
+2018-12-18 17:59:10 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 17:59:10 [JOB: 878594] INFO: It is my turn!
+2018-12-18 17:59:20 [JOB: 878594] INFO: Loop number: 92
+2018-12-18 17:59:20 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:00:57 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:00:57 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:00:57 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:01:09 [JOB: 878594] INFO: Loop number: 93
+2018-12-18 18:01:09 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:03:08 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:03:08 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:03:08 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:03:19 [JOB: 878594] INFO: Loop number: 94
+2018-12-18 18:03:19 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:05:15 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:05:15 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:05:15 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:05:26 [JOB: 878594] INFO: Loop number: 95
+2018-12-18 18:05:26 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:07:21 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:07:21 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:07:21 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:07:32 [JOB: 878594] INFO: Loop number: 96
+2018-12-18 18:07:32 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:09:29 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:09:29 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:09:29 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:09:40 [JOB: 878594] INFO: Loop number: 97
+2018-12-18 18:09:40 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:11:40 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:11:40 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:11:40 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:11:50 [JOB: 878594] INFO: Loop number: 98
+2018-12-18 18:11:50 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:14:03 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:14:03 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:14:03 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:14:13 [JOB: 878594] INFO: Loop number: 99
+2018-12-18 18:14:13 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:16:17 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:16:17 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:16:17 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:16:27 [JOB: 878594] INFO: Loop number: 100
+2018-12-18 18:16:27 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:18:32 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:18:32 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:18:32 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:18:42 [JOB: 878594] INFO: Loop number: 101
+2018-12-18 18:18:42 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:20:45 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:20:45 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:20:45 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:20:55 [JOB: 878594] INFO: Loop number: 102
+2018-12-18 18:20:55 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:23:06 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:23:06 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:23:06 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:23:16 [JOB: 878594] INFO: Loop number: 103
+2018-12-18 18:23:16 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:25:29 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:25:29 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:25:29 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:25:39 [JOB: 878594] INFO: Loop number: 104
+2018-12-18 18:25:39 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:27:55 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:27:55 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:27:55 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:28:06 [JOB: 878594] INFO: Loop number: 105
+2018-12-18 18:28:06 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:30:13 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:30:13 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:30:13 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:30:23 [JOB: 878594] INFO: Loop number: 106
+2018-12-18 18:30:23 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:32:42 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:32:42 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:32:42 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:32:52 [JOB: 878594] INFO: Loop number: 107
+2018-12-18 18:32:52 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:35:10 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:35:10 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:35:10 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:35:20 [JOB: 878594] INFO: Loop number: 108
+2018-12-18 18:35:20 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:37:25 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:37:25 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:37:25 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:37:35 [JOB: 878594] INFO: Loop number: 109
+2018-12-18 18:37:35 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:39:53 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:39:53 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:39:53 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:40:04 [JOB: 878594] INFO: Loop number: 110
+2018-12-18 18:40:04 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:42:24 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:42:24 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:42:24 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:42:35 [JOB: 878594] INFO: Loop number: 111
+2018-12-18 18:42:35 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:44:55 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:44:55 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:44:55 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:45:05 [JOB: 878594] INFO: Loop number: 112
+2018-12-18 18:45:05 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:46:12 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:46:12 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:46:12 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:46:23 [JOB: 878594] INFO: Loop number: 113
+2018-12-18 18:46:23 [JOB: 878594] INFO: Starting data collection
+2018-12-18 18:47:15 [JOB: 878594] INFO: Ready to write
+2018-12-18 18:47:15 [JOB: 878594] INFO: No control_port has been written yet so the rest of nodes are still waiting!
+2018-12-18 18:47:15 [JOB: 878594] INFO: It is my turn!
+2018-12-18 18:47:25 [JOB: 878594] INFO: DCRAB terminated: all processes of the job have finished
+2018-12-18 18:47:25 [JOB: 878594] INFO: DCRAB stop

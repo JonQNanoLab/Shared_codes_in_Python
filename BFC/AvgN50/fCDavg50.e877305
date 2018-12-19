@@ -1,0 +1,5 @@
+cat: write error: Broken pipe
+Traceback (most recent call last):
+  File "ArraySweepAvgIntegral_withSupra.py", line 1, in <module>
+    import numpy as np
+ImportError: No module named numpy
