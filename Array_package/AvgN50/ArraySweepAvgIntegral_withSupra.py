@@ -1,6 +1,5 @@
 import numpy as np
 import multiprocessing as mp
-from tqdm import tqdm
 import scipy.io as sio  # To read .mat files
 from FiniteArrayTools import lambda_kerker, ab_MieCoef
 from AvgIntegralFunction import AvgIntegral
